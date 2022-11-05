@@ -3,4 +3,4 @@ project(linear04)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(linear04.exe main.cpp)
+add_executable(linear04.exe code.cpp)
