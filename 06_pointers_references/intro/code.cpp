@@ -1,6 +1,7 @@
 #include <cassert>
 unsigned int length(const char* str)
 {
+      if (!str)
         return 0; 
     
     const char* end = str;
